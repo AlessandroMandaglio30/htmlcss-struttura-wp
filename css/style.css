@@ -62,6 +62,10 @@ header{
     clear: both;
     display: table;
 }
+/* footer */
+footer{
+    height: 70px;
+}
 
 /**** debug ****/
 .debug header{
@@ -78,3 +82,10 @@ header{
     background-color: rgb(0, 247, 255);
 }
 
+.debug header{
+    background-color: violet ;
+}
+
+.debug footer{
+    background-color: rgb(103, 18, 214) ;
+}
