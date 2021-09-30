@@ -4,3 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/**** body ****/
+body{
+    padding: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/**** header ****/
+header{
+    height: 90px;
+    background-color: violet ;
+}
