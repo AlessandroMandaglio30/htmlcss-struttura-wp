@@ -18,10 +18,34 @@ header{
 /**** jumbotron ****/
 .jumbotron{
     width: 100%;
+    margin-bottom: 20px;
+}
+/**** main ****/
+.box{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.links{
+    width: 20%;
+    float:left;
+}
+.widget{
+    width: 20%;
+    float: right;
 }
 
 
+.boxs{
+    width: 72%;
+    margin-right:8%;
+}
 
+.clearfix::after{
+    content "";
+    clear: both;
+    display: table;
+}
 /**** debug ****/
 .debug header{
     background-color: violet ;
@@ -30,5 +54,12 @@ header{
 .debug .jumbotron{
     background-color: rgb(126, 158, 79);
     height: 500px;
-
+}
+.debug .box{
+    background-color: rgb(79, 120, 158);
+}
+ 
+.debug .links, .widget{
+    height: 400px;
+    background-color: blue;
 }
