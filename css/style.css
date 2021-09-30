@@ -13,5 +13,22 @@ body{
 /**** header ****/
 header{
     height: 90px;
+    margin-bottom: 20px;
+}
+/**** jumbotron ****/
+.jumbotron{
+    width: 100%;
+}
+
+
+
+/**** debug ****/
+.debug header{
     background-color: violet ;
+}
+
+.debug .jumbotron{
+    background-color: rgb(126, 158, 79);
+    height: 500px;
+
 }
